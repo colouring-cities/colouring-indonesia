@@ -1,0 +1,42 @@
+/**
+ * Welcome jumbotron
+ */
+.welcome.section-body {
+  padding-bottom: 0;
+}
+
+.image-row {
+  margin: 1em 0 1em 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.image-row img {
+  margin: 0 0.5em;
+  max-height: 100%;
+  max-width: 100%;
+  align-self: center;
+}
+
+.cl-logo {
+  /* height: 4em; */
+  width: calc(50% - 1em);
+}
+
+.turing-logo {
+  /* height: 4em; */
+  width: calc(50% - 1em);
+}
+
+.kcl-logo {
+  /* height: 3.9em; */
+  width: calc(50% - 3em);
+}
+
+.itb-logo {
+  /* height: 4em; */
+  width: calc(50% - 3em);
+}
